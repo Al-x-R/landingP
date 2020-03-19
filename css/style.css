@@ -282,8 +282,8 @@ header {
 .services__item-btn {
     position: absolute;
     bottom: 40px;
-    /* left: 0;
-    right: 0; */
+    left: 0;
+    right: 0;
 }
 .services__item-btn .default-btn {
     color: #373636;
@@ -295,5 +295,5 @@ header {
     color: #050505;
     font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid #050505;
-    /* margin-right: 60px; */
+    margin-right: 60px;
 }
