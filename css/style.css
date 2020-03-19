@@ -353,8 +353,7 @@ header {
 }
 .form__box-inner label,
 .form__box-inner input,
-.form__box-inner textarea,
-.form__box-inner select {
+.form__box-inner textarea {
   display: block;
   width: 100%;
 }
@@ -371,11 +370,8 @@ header {
     padding: 0px 10px;
 }
 .form__box-inner select {
-    background-color: transparent;
     outline: none;
     padding-left: 17px;
-    height: 40px;
-    border: 1px solid #e6e6e6;
 }
 .form__box-inner .jq-selectbox.jqselect {
     display: block;
