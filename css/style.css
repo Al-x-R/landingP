@@ -171,15 +171,15 @@ header {
     width: 40px;
     height: 40px;
     border: 1px solid #fff;
-    opacity:0.2;
+    /* opacity:0.2; */
   
     cursor: pointer;
     outline: none;
-    /* background-color: #ffc222; */
+    background-color: #ffc222;
 }
 .slick-btn.slick-disabled {
     cursor: default;
-    /* background-color: transparent; */
+    background-color: transparent;
 }
 .slick-btn:before {
     position: absolute;
@@ -187,7 +187,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'icomoon';
-    /* color: #fff; */
+    color: #fff;
 }
 .slick-next:before {
     content: "\f105";
@@ -197,12 +197,12 @@ header {
 }
 .slick-next {
     right: 0;
-    /* border-top-right-radius: 15px; */
-    border-radius: 20px;
+  
+    /* border-radius: 20px; */
   }
 .slick-prev {
     left: 0;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 .services {
     padding: 50px 0px 30px;
